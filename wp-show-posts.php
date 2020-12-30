@@ -17,6 +17,20 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+// Run update code
+require 'CWupdater/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+	'https://github.com/krystoflp/wp-show-posts',
+	__FILE__,
+	'wp-show-posts'
+);
+
+//Optional: If you're using a private repository, specify the access token like this:
+$myUpdateChecker->setAuthentication('6f510bf31fe1a91a7f4d7a95cc94574336a8c65b');
+
+//Optional: Enable github release functionality
+$myUpdateChecker->getVcsApi()->enableReleaseAssets();
+
 // Define the current version
 define( 'WPSP_VERSION', '1.1.3' );
 
