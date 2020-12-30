@@ -3,7 +3,7 @@
 Plugin Name: ChurchWeb Show Posts
 Plugin URI: https://ChurchWeb.uk
 Description: WP Show Posts allows you to list posts (from any post type) anywhere on your site. This includes WooCommerce products or any other post type you might have! Check out the pro version for even more features at https://wpshowposts.com.
-Version: 1.1.2
+Version: 1.0.1
 Author: ChurchWeb
 Author URI: https://ChurchWeb.uk
 License: GNU General Public License v2 or later
