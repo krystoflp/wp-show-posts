@@ -32,7 +32,7 @@ if ( ! function_exists( 'wpsp_translatable_strings' ) ) {
 	function wpsp_translatable_strings() {
 		?>
 		<script type="text/javascript">
-			var wpsp_add_posts = '<?php _e( 'WP Show Posts','wp-show-posts' );?>';
+			var wpsp_add_posts = '<?php _e( 'CW Show Posts','wp-show-posts' );?>';
 			var wpsp_nonce = '<?php echo wp_create_nonce( 'wpsp_nonce' ); ?>';
 		</script>
 		<?php
