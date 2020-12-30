@@ -1,14 +1,15 @@
 <?php
 /*
-Plugin Name: WP Show Posts
-Plugin URI: https://wpshowposts.com
+Plugin Name: ChurchWeb Show Posts
+Plugin URI: https://ChurchWeb.uk
 Description: WP Show Posts allows you to list posts (from any post type) anywhere on your site. This includes WooCommerce products or any other post type you might have! Check out the pro version for even more features at https://wpshowposts.com.
 Version: 1.1.3
-Author: Tom Usborne
-Author URI: https://tomusborne.com
+Author: ChurchWeb
+Author URI: https://ChurchWeb.uk
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: wp-show-posts
+Based on WP Show Posts by Tom Usborne, also released under GPL2.0 https://github.com/tomusborne/wp-show-posts
+
 */
 
 // No direct access, please
